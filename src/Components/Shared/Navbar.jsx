@@ -1,7 +1,7 @@
 import { AiOutlineMenu } from "react-icons/ai";
 import { Link } from "react-router-dom";
 import { BsArrowRight } from "react-icons/bs";
-import logo from '../../assets/logo2.png'
+import logo from '../../assets/logo3.png'
 
 const Navbar = () => {
     const navOptions = <>
