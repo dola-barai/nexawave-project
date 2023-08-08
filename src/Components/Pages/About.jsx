@@ -3,8 +3,8 @@ import { Link } from "react-router-dom";
 
 const About = () => {
     return (
-        <div className="px-36 py-24 bg-zinc-900">
-            <div className="grid grid-cols-2 gap-3">
+        <div className="px-10 md:px-36 py-24 bg-zinc-900">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
                 <div>
                     <h1 className="text-3xl font-semibold text-white">Scalable infrastructure to build <br /> Cosmos apps fast and easy.</h1>
                     <Link className="font-semibold text-lg flex pt-2 text-orange-700 " to='https://docs.numia.xyz/overview/what-is-numia'><span className="border-b-2 hover:border-b-4 border-orange-700 flex">Get Started<span> </span><BsArrowRight className="pt-2 h-6 hover:animate-bounce"></BsArrowRight></span></Link>

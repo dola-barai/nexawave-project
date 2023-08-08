@@ -7,7 +7,7 @@ const Products = () => {
             <div className="text-white py-12">
                 <h1 className="text-center text-4xl font-bold py-8">Products</h1>
 
-                <div className="grid grid-cols-3 gap-2 px-12 pt-4">
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-2 px-3 md:px-12 pt-4">
                     <div>
                         <div className="card w-full bg-zinc-900 rounded-lg shadow-xl">
                             <div className="card-body">

@@ -1,4 +1,4 @@
-import { AiOutlineMenu } from "react-icons/ai";
+import { VscMenu } from "react-icons/vsc";
 import { Link } from "react-router-dom";
 import { BsArrowRight } from "react-icons/bs";
 import logo from '../../assets/logo3.png'
@@ -21,7 +21,7 @@ const Navbar = () => {
                     </ul>
                     <div className="dropdown">
                         <label tabIndex={0} className="btn btn-ghost lg:hidden">
-                            <AiOutlineMenu></AiOutlineMenu>
+                            <VscMenu className=""></VscMenu>
                         </label>
                         <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-black rounded-box w-52">
                             {navOptions}

@@ -4,7 +4,7 @@ const Projects = () => {
             <div className="text-white py-12">
                 <h1 className="text-center text-4xl font-semibold py-8">Built for all types of projects</h1>
 
-                <div className="grid grid-cols-4 gap-6 px-12 pt-4 pb-6">
+                <div className="grid grid-cols-1 md:grid-cols-4 gap-6 px-3 md:px-12 pt-4 pb-6">
                     <div>
                         <div className="card h-52 bg-zinc-900 text-neutral-content">
                             <div className="card-body items-center text-center">
